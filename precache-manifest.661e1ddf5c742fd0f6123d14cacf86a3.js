@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea87fd69d5c79f41b4ab62d180a9c5c4",
+    "revision": "39fe02a8d922df3bfd62ef9838f63697",
     "url": "/attendance/index.html"
   },
   {
-    "revision": "f6fbe29b96b0cb68d44e",
-    "url": "/attendance/static/css/main.60c5ff46.chunk.css"
+    "revision": "f4aeca670cae415791b8",
+    "url": "/attendance/static/css/main.dcf1efea.chunk.css"
   },
   {
     "revision": "962c15452f0a1214f007",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/attendance/static/js/2.5540884b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f6fbe29b96b0cb68d44e",
-    "url": "/attendance/static/js/main.38642cba.chunk.js"
+    "revision": "f4aeca670cae415791b8",
+    "url": "/attendance/static/js/main.02b4cddd.chunk.js"
   },
   {
     "revision": "cb7728c63f37cbf905d4",
