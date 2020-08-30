@@ -1,24 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
+
 import './App.css';
 
+import Top from './components/top';
+import Home from './components/home';
+import RollCall from './components/rollCall';
+import End from './components/end'
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [ roll , setRoll ] = useState({
+    limits: [1,45],
+    register: {}
+  })
+  const [ absent , setAbsent ] = useState([])
+  const [ test , setTest ] = useState([0])
+  return (  
+     <div> 
+      <Top />
+      <Router>
+        
+          <Route 
+            path='/' exact 
+            component={() => 
+              <Home 
+                roll = {roll} 
+                setRoll = { (roll) => setRoll(roll) }
+                test = {test} 
+                setTest = { (test) => setTest(test)}  />}
+          />
+          <Route 
+            path = '/rollCall' exact
+            component = { () => 
+              <RollCall 
+                roll = { roll } 
+                setRoll = { (roll) => setRoll(roll) }
+                setAbsent = { (absent) => setAbsent(absent) }
+              />} 
+          />
+        
+      </Router>
     </div>
   );
 }
