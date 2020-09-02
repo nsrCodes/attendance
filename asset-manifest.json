@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/attendance/static/css/main.e561413e.chunk.css",
-    "main.js": "/attendance/static/js/main.db8ccf21.chunk.js",
-    "main.js.map": "/attendance/static/js/main.db8ccf21.chunk.js.map",
+    "main.js": "/attendance/static/js/main.7367afe3.chunk.js",
+    "main.js.map": "/attendance/static/js/main.7367afe3.chunk.js.map",
     "runtime-main.js": "/attendance/static/js/runtime-main.b40ed504.js",
     "runtime-main.js.map": "/attendance/static/js/runtime-main.b40ed504.js.map",
     "static/js/2.5540884b.chunk.js": "/attendance/static/js/2.5540884b.chunk.js",
     "static/js/2.5540884b.chunk.js.map": "/attendance/static/js/2.5540884b.chunk.js.map",
     "index.html": "/attendance/index.html",
-    "precache-manifest.483fa92cb75de10f5c763f53d7d5f059.js": "/attendance/precache-manifest.483fa92cb75de10f5c763f53d7d5f059.js",
+    "precache-manifest.6d8964809c5e2b9f08fd6b711e628826.js": "/attendance/precache-manifest.6d8964809c5e2b9f08fd6b711e628826.js",
     "service-worker.js": "/attendance/service-worker.js",
     "static/css/main.e561413e.chunk.css.map": "/attendance/static/css/main.e561413e.chunk.css.map",
     "static/js/2.5540884b.chunk.js.LICENSE.txt": "/attendance/static/js/2.5540884b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b40ed504.js",
     "static/js/2.5540884b.chunk.js",
     "static/css/main.e561413e.chunk.css",
-    "static/js/main.db8ccf21.chunk.js"
+    "static/js/main.7367afe3.chunk.js"
   ]
 }
